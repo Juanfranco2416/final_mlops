@@ -6,7 +6,7 @@ import uvicorn
 from pydantic import create_model
 import pickle
 import numpy as np
-#from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.ensemble import GradientBoostingRegressor
 # from sklearn.metrics import mean_squared_error, r2_score
 # from sklearn.datasets import fetch_california_housing
 # from sklearn.model_selection import train_test_split
