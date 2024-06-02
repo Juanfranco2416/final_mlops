@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import pandas as pd
-from pycaret.regression import load_model, predict_model
 from fastapi import FastAPI
 import uvicorn
 from pydantic import create_model
